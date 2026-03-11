@@ -332,7 +332,7 @@ if uploader is not None:
             width=600,
             height=450
         )
-        st.subheader('💰Faturamento por Segmento')
+        st.subheader('Faturamento por Segmento')
         st.plotly_chart(fig_rosca,use_container_width=True)
     
     with col1:
@@ -343,7 +343,7 @@ if uploader is not None:
             labels={'valor_venda':"Valor Vendas(R$)"},
             template='plotly_dark'
         )
-        st.subheader('👥**Faturamento por Vendedor**')
+        st.subheader('**Faturamento por Vendedor**')
         st.plotly_chart(fig, use_container_width=True)
 
 
@@ -368,7 +368,7 @@ if uploader is not None:
             labels={'Qtd_Vendas': 'Quantidade'},
             template='plotly_dark'
         )
-        st.subheader('🏬 Quantidade de Vendas por Loja')
+        st.subheader('Quantidade de Vendas por Loja')
         st.plotly_chart(fig, use_container_width=True)    
 
     with col3:
